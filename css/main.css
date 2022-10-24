@@ -101,7 +101,7 @@ body {
     z-index: 2;
   }
   .menu:checked + label {
-    background-color: red;
+    background-image: url("../img/checbox2.svg");
   }
 }
 .hero__container {
