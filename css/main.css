@@ -88,6 +88,9 @@ body {
   .header_list {
     display: none;
   }
+  .menu {
+    display: none;
+  }
   .label {
     width: 40px;
     height: 40px;
@@ -98,7 +101,7 @@ body {
     z-index: 2;
   }
   .menu:checked + label {
-    background-image: url("../img/checbox2.svg");
+    background-color: red;
   }
 }
 .hero__container {
