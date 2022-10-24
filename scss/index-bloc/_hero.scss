@@ -27,7 +27,22 @@ color: #FEFCF7;
 width: 445px;
 margin: 32px 0 56px 0;
 opacity: 0.8;
+max-width: 255px;
 }
 .btn{
   @include btn
+}
+@media screen and (max-width:700px){
+
+  .hero__title{
+    font-size: 40px;
+line-height: 40px;
+text-align: center;
+  }
+  .hero__text{
+    font-size: 15px;
+line-height: 25px;
+text-align: center;
+margin: 0 auto;
+  }
 }
