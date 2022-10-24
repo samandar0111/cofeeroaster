@@ -78,10 +78,10 @@ margin-bottom: 56px;
 
 }
 .item2::before{
-  background-image: url('../../img/choose-bg2.svg');
+  background-image: url('../../img/choosebg2.svg');
 }
 .item3::before{
-  background-image: url(../../img/choose-bg3.svg);
+  background-image: url('../../img/choosebg3.svg');
 }
 .choose__item-text{
   @include text-style;
@@ -111,17 +111,17 @@ margin: 24px auto 0 auto;
 .choose__item-block{
   // 2
   padding-left: 150px;
-  background-image: url(../../img/choose-bg2.svg);
+  background-image: url(../../img/choosebg2.svg);
   background-repeat: no-repeat;
   background-position: 20% center;
   background-size: 55px 56px;
 }
 .choose__blok1{
-  background-image: url('../../img/choose-bg1.png');
+  background-image: url('../../img/choosebg1.png');
   background-repeat: no-repeat;
 }
 .choose__block2{
-  background-image: url('../../img/choose-bg3.svg');
+  background-image: url('../../img/choosebg3.svg');
 }
 .choose__bottom{
   height: 418px;
