@@ -1,0 +1,33 @@
+
+
+.hero__container{
+  padding: 116px 20px;
+  background-image: url(../../img/index-bgi-hero.jpg);
+background-repeat: no-repeat;
+border-radius: 10px;
+background-position: right;
+background-size: cover;
+}
+.hero__block{
+  margin-left: 85px;
+}
+.hero__title{
+  font-family: 'Fraunces 9pt';
+font-weight: 900;
+font-size: 72px;
+line-height: 72px;
+color: #FEFCF7;
+max-width: 493px ;
+}
+.hero__text{
+  font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #FEFCF7;
+width: 445px;
+margin: 32px 0 56px 0;
+opacity: 0.8;
+}
+.btn{
+  @include btn
+}

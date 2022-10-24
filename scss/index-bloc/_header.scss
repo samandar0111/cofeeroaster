@@ -1,0 +1,40 @@
+.header_box{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.header_list{
+  width: 283px;
+  display: flex;
+  justify-content: space-between;
+cursor: pointer;
+}
+
+.header_item{
+  font-family: 'Barlow';
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+letter-spacing: 0.923077px;
+text-transform: uppercase;
+}
+@media screen and (max-width:700px){
+  .header_list{
+    display: none;
+  }
+  .menu{
+    display: block;
+  }
+ .label{
+  width: 40px;
+  height: 40px ;
+  display: block;
+background-image: url('../../img/checbox1.svg');
+background-repeat: no-repeat;
+background-size: cover;
+ }
+ .menu:checked label{
+  background-image: url('../../img/checbox2.svg');
+ }
+}
+

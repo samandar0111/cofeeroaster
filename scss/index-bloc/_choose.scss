@@ -1,0 +1,130 @@
+
+.choose__block{
+  background-color: #293039;
+  padding: 100px 0 86px 0;
+  margin-top: 200px;
+  position: relative;
+  border-radius: 10px;
+}
+.choose__title{
+  font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+$font:'Fraunces';
+text-align: center;
+color: #FEFCF7;
+}
+.choose__text{
+  @include text-style;
+  color: #FEFCF7;
+  opacity: 0.8;
+  max-width: 540px;
+margin: 0 auto;
+  text-align: center;
+  margin-top: 32px ;
+}
+.menu{
+  display: none;
+}
+.choose__bottom{
+  height: 250px;
+  max-width: 1320px;
+  width: 100%;
+  background-color: #293039;
+  position: absolute;
+  display: block;
+  z-index: -1;
+  bottom: -65%;
+  border-radius: 10px;
+}
+
+.choose__list{
+  display: flex;
+  max-width: 1110px;
+justify-content: space-between;
+gap: 30px;
+margin: 0 auto;
+}
+.choose__item{
+  text-align: center;
+  background-color: #0E8784;
+  max-width: 350px;
+  width: 100%;
+  border-radius: 8px;
+padding-top: 72px;
+padding-bottom: 48px;
+}
+.choose__item-title{
+  $font:'Fraunces';
+  font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+color: #FEFCF7;
+display:block;
+margin: 0 auto;
+max-width: 255px;
+}
+.choose__item-title::before{
+  content: '';
+  background-repeat: no-repeat;
+  background-image: url('../../img/choose-bg1.png');
+  width: 71px;
+  height: 72px;
+  display:block ;
+justify-content: center;
+margin:auto;
+margin-bottom: 56px;
+
+
+}
+.item2::before{
+  background-image: url('../../img/choose-bg2.svg');
+}
+.item3::before{
+  background-image: url(../../img/choose-bg3.svg);
+}
+.choose__item-text{
+  @include text-style;
+  max-width: 255px;
+  color: #FEFCF7;
+margin: 24px auto 0 auto;
+}
+@media screen and (max-width:1050px){
+  .choose__list{
+    flex-direction: column;
+  }
+  .choose__item{
+    margin: 0 auto;
+    max-width: 80%;
+    text-align: start;
+   
+  }
+.choose__item-title::before{
+  display: none;
+}
+.choose__item-text{
+  max-width: 325px;
+}
+.choose__item-title{
+  max-width: 325px;
+}
+.choose__item-block{
+  // 2
+  padding-left: 150px;
+  background-image: url(../../img/choose-bg2.svg);
+  background-repeat: no-repeat;
+  background-position: 20% center;
+  background-size: 55px 56px;
+}
+.choose__blok1{
+  background-image: url('../../img/choose-bg1.png');
+  background-repeat: no-repeat;
+}
+.choose__block2{
+  background-image: url('../../img/choose-bg3.svg');
+}
+.choose__bottom{
+  height: 418px;
+  bottom: -108%;
+}
+}
