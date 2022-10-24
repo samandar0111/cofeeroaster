@@ -65,3 +65,12 @@ margin-bottom: 24px;
   width: 300px;
   }
 }
+@media screen and (max-width:1050px){
+  .collecion__item{
+    flex-direction: column;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+   
