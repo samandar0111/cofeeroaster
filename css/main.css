@@ -60,21 +60,6 @@ body {
   position: relative;
 }
 
-.dropdown {
-  width: 100%;
-  position: absolute;
-  background-color: #fff;
-  text-align: center;
-  display: none;
-}
-
-.dropdown1 {
-  color: black;
-  font-size: 50px;
-  line-height: 88px;
-  opacity: 1;
-}
-
 .header_list {
   width: 283px;
   display: -webkit-box;
@@ -103,12 +88,6 @@ body {
   .header_list {
     display: none;
   }
-  .menu {
-    display: block;
-  }
-  .menu:checked label {
-    background-image: url("../img/checbox2.svg");
-  }
   .label {
     width: 40px;
     height: 40px;
@@ -117,6 +96,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 2;
+  }
+  .menu:checked label {
+    background-image: url("../img/checbox2.svg");
   }
   .menu:checked + label {
     background-image: url("../../img/checbox2.svg");
