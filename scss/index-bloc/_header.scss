@@ -33,6 +33,10 @@ line-height: 15px;
 letter-spacing: 0.923077px;
 text-transform: uppercase;
 }
+.menu{
+  display: none;
+}
+
 @media screen and (max-width:700px){
   .header_list{
     display: none;
@@ -40,6 +44,10 @@ text-transform: uppercase;
   .menu{
     display: block;
   }
+
+ .menu:checked label{
+  background-image: url('../img/checbox2.svg');
+ }
  .label{
   width: 40px;
   height: 40px ;
@@ -49,11 +57,8 @@ background-repeat: no-repeat;
 background-size: cover;
 z-index: 2;
  }
- .menu:checked label{
-  background-image: url('../img/checbox2.svg');
- }
- .menu:checked .dropdown{
-  display: block;
+ .menu:checked +label{
+  background-image: url('../../img/checbox2.svg');
  }
 }
 

@@ -95,12 +95,19 @@ body {
   text-transform: uppercase;
 }
 
+.menu {
+  display: none;
+}
+
 @media screen and (max-width: 700px) {
   .header_list {
     display: none;
   }
   .menu {
     display: block;
+  }
+  .menu:checked label {
+    background-image: url("../img/checbox2.svg");
   }
   .label {
     width: 40px;
@@ -111,11 +118,8 @@ body {
     background-size: cover;
     z-index: 2;
   }
-  .menu:checked label {
-    background-image: url("../img/checbox2.svg");
-  }
-  .menu:checked .dropdown {
-    display: block;
+  .menu:checked + label {
+    background-image: url("../../img/checbox2.svg");
   }
 }
 .hero__container {
@@ -168,7 +172,12 @@ body {
     font-size: 15px;
     line-height: 25px;
     text-align: center;
-    margin: 0 auto;
+  }
+  .hero__block {
+    margin-left: 2%;
+  }
+  .hero__container {
+    width: 100%;
   }
 }
 .collection__list {
@@ -299,10 +308,6 @@ body {
   margin: 0 auto;
   text-align: center;
   margin-top: 32px;
-}
-
-.menu {
-  display: none;
 }
 
 .choose__bottom {
