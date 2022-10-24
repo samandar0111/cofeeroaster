@@ -100,7 +100,7 @@ body {
 }
 .hero__container {
   padding: 116px 20px;
-  background-image: url(../../img/index-bgi-hero.jpg);
+  background-image: url("../../img/indexbgihero.jpg");
   background-repeat: no-repeat;
   border-radius: 10px;
   background-position: right;
@@ -307,7 +307,7 @@ body {
 .choose__item-title::before {
   content: "";
   background-repeat: no-repeat;
-  background-image: url("../../img/choose-bg1.png");
+  background-image: url("../../img/choosebg1.png");
   width: 71px;
   height: 72px;
   display: block;
