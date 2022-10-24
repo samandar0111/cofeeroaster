@@ -97,11 +97,8 @@ body {
     background-size: cover;
     z-index: 2;
   }
-  .menu:checked label {
-    background-image: url("../img/checbox2.svg");
-  }
   .menu:checked + label {
-    background-image: url("../../img/checbox2.svg");
+    background-image: url("../img/checbox2.svg");
   }
 }
 .hero__container {

@@ -28,9 +28,7 @@ text-transform: uppercase;
   .header_list{
     display: none;
   }
-  // .menu{
-  //   display: block;
-  // }
+
  
   .label{
     width: 40px;
@@ -41,12 +39,10 @@ text-transform: uppercase;
   background-size: cover;
   z-index: 2;
    }
- .menu:checked label{
+ .menu:checked +label{
   background-image: url('../img/checbox2.svg');
  }
 
- .menu:checked +label{
-  background-image: url('../../img/checbox2.svg');
- }
+
 }
 
