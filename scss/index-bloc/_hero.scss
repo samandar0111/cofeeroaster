@@ -30,23 +30,25 @@ opacity: 0.8;
 max-width: 255px;
 }
 .btn{
-  @include btn
+  @include btn;
+  display: inline-block;
+  
 }
 @media screen and (max-width:700px){
 
   .hero__title{
     font-size: 40px;
 line-height: 40px;
-text-align: center;
   }
   .hero__text{
     font-size: 15px;
 line-height: 25px;
-text-align: center;
+text-align: start;
 
   }
   .hero__block{
     margin-left: 2%;
+  
   }
   .hero__container{
     width: 100%;

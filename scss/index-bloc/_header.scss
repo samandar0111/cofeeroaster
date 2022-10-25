@@ -13,12 +13,15 @@ cursor: pointer;
 }
 
 .header_item{
-  font-family: 'Barlow';
+
 font-weight: 700;
 font-size: 12px;
 line-height: 15px;
 letter-spacing: 0.923077px;
 text-transform: uppercase;
+}
+.header__item-link{
+  color: #fff;
 }
 .menu{
   display: none;
