@@ -586,7 +586,11 @@ a {
         -ms-flex-direction: column;
             flex-direction: column;
     text-align: center;
-    margin: 48px auto;
+    margin: 48px 0 48px 0;
     height: 93px;
+  }
+  .header__item-link {
+    display: inline-block;
+    margin: 10px auto;
   }
 }/*# sourceMappingURL=main.css.map */
