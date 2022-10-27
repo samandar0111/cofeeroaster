@@ -1,0 +1,35 @@
+.quolity__container{
+  padding: 0 85px;
+  background-color: #2C343E;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 245px;
+}
+.quolity__block{
+  padding: 85px 0 176px 0;
+}
+.quolity__title{
+  font-family: 'Fraunces';
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+color: #FEFCF7;
+}
+.quolity__text{
+  font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #FEFCF7;
+opacity: 0.8;
+margin-top: 32px;
+max-width: 540px;
+}
+.quolity__img{
+position: absolute;
+  z-index: 1;
+  right:21%;
+  top: -15%;
+width: 20%;
+}

@@ -1,0 +1,46 @@
+.canada__title{
+  
+font-family: 'Fraunces';
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+color: #83888F;
+margin-top: 179px;
+
+}
+.canada__list{
+display: flex;
+}
+.canada__item{
+  margin-right: 95px;
+ width: 285px;
+ transition: .5s;
+ border-radius: 8px;
+}
+.canada__item-title::before{
+  content: '';
+  background-image: url('../img/canada_img1.png');
+  background-repeat: no-repeat;
+  width: 41px;
+  height: 48px;
+   display: block;
+   margin-top: 72px;
+   margin-bottom: 45px;
+}
+.canada__item-title{
+  font-family: 'Fraunces';
+font-weight: 900;
+font-size: 32px;
+line-height: 36px;
+color: #333D4B;
+}
+.canada__item-text{
+  font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #333D4B;
+margin-top: 24px;
+}
+.canada__item:hover{
+background-color: blueviolet;
+}

@@ -1,0 +1,34 @@
+
+.our__container{
+  display: flex;
+  align-items: center;
+  margin-top: 168px;
+  max-width: 1110px;
+  justify-content: space-between;
+}
+
+.our__img{
+  max-width: 500px;
+}
+.our_img2{
+  width: 100%;
+}
+
+.our__title{
+  font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+color: #333D4B;
+margin-bottom: 32px;
+}
+.our__text{
+  font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #333D4B;
+opacity: 0.8;
+max-width: 540px;
+
+}

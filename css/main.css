@@ -589,8 +589,167 @@ a {
     margin: 48px 0 48px 0;
     height: 93px;
   }
-  .header__item-link {
-    display: inline-block;
-    margin: 10px auto;
-  }
+}
+.about-hero__contaner {
+  padding: 137px 0;
+  padding-left: 85px;
+  background-image: url("../img/about.herobg.png");
+  background-repeat: no-repeat;
+  max-width: 1280px;
+  border-radius: 10px;
+}
+
+.about-hero__title {
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FEFCF7;
+}
+
+.about-hero__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  max-width: 445px;
+}
+
+.our__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 168px;
+  max-width: 1110px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.our__img {
+  max-width: 500px;
+}
+
+.our_img2 {
+  width: 100%;
+}
+
+.our__title {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #333D4B;
+  margin-bottom: 32px;
+}
+
+.our__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+  opacity: 0.8;
+  max-width: 540px;
+}
+
+.quolity__container {
+  padding: 0 85px;
+  background-color: #2C343E;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  margin-top: 245px;
+}
+
+.quolity__block {
+  padding: 85px 0 176px 0;
+}
+
+.quolity__title {
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FEFCF7;
+}
+
+.quolity__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  opacity: 0.8;
+  margin-top: 32px;
+  max-width: 540px;
+}
+
+.quolity__img {
+  position: absolute;
+  z-index: 1;
+  right: 21%;
+  top: -15%;
+  width: 20%;
+}
+
+.canada__title {
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F;
+  margin-top: 179px;
+}
+
+.canada__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.canada__item {
+  margin-right: 95px;
+  width: 285px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border-radius: 8px;
+}
+
+.canada__item-title::before {
+  content: "";
+  background-image: url("../img/canada_img1.png");
+  background-repeat: no-repeat;
+  width: 41px;
+  height: 48px;
+  display: block;
+  margin-top: 72px;
+  margin-bottom: 45px;
+}
+
+.canada__item-title {
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333D4B;
+}
+
+.canada__item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+  margin-top: 24px;
+}
+
+.canada__item:hover {
+  background-color: blueviolet;
 }/*# sourceMappingURL=main.css.map */
